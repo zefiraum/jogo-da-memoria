@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+:root {
+  --white: #FFF;
+  --whitesmoke: #F9F9F9;
+  --light-grey: #ECECEC;
+  --grey: #C4C4C4;
+  --medium-grey: #A7A7A7;
+  --deep-grey: #343434;
+  --black: #000000;
+  --blue: #1B77F3;
+  --red: #CF3C3F;
+}
+
+main {
+  display: flex;
+}
+
+.cadastro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../components/images/wallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.section__cadastro {
+  width: 80%;
+  height: 80%;
+  padding: 50px;
+  display: flex;
+  border-radius: 0.15em;
+  background-color: #FFF;
+}
+
+.wrapper__cadastro {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cadastro__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cadastro__form {
+  width: 100%;
+}
+
+.cadastro__logo {
+  width: 130px;
+  margin-bottom: 50px;
+}
+
+.cadastro__title {
+  color: var(--deep-grey);
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+.cadastro__button {
+  padding: 5px 7px;
+  cursor: pointer;
+  background-color: var(--red);
+  border: none;
+  border-radius: 0.3em;
+}
+
+.cadastro__button span {
+  color: white;
+  font-size: 1.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
