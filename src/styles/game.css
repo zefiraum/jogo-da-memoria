@@ -33,8 +33,28 @@
 }
 
 .back {
-  background-image: url('../components/images/back.png');
+  background-image: url("../components/images/back.png");
   backface-visibility: hidden;
+}
+
+.beth {
+  background-image: url("../components/images/beth.png");
+}
+
+.morty {
+  background-image: url("../components/images/morty.png");
+}
+
+.rick {
+  background-image: url("../components/images/rick.png");
+}
+
+.jessica {
+  background-image: url("../components/images/jessica.png");
+}
+
+.scroopy {
+  background-image: url("../components/images/scroopy.png");
 }
 
 .virar__carta {
